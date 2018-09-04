@@ -1,0 +1,268 @@
+body {
+    direction: rtl;
+    background-repeat: no-repeat;
+    background-image: url('../images/galgalim.jpg');
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    background-image: url('../images/ep_naturalwhite.png');
+}
+
+#first1 {
+    background-image: url('../images/galgal.jpg');
+    height: 200px;
+    width: 960px;
+    margin-right: -15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+}
+
+#first1 h1 {
+        padding: 30px 50px;
+        color: white;
+        font-size: 40pt;
+}
+
+/*navigat menu*/
+
+#main ul {
+    list-style: none;
+    background-color: white;
+    height: 64px;
+    width: 960px;
+    margin-right: -15px;
+}
+
+#main ul li {
+        margin-right: -40px;
+}
+
+#main ul li a {
+            color: black;
+            display: block;
+            text-decoration: none;
+            background-color: white;
+            text-decoration: none;
+            display: inline-block;
+            float: right;
+            width: 150px;
+            padding: 20px;
+            text-align: center;
+ }
+
+#main ul li a:hover {
+                background-color: black;
+                color: white;
+                text-decoration: none;
+}
+
+.threepic img {
+    width: 245px;
+    height: 200px;
+    display: inline-block;
+    float: right;
+}
+
+.threepic li a {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+}
+
+.threepic {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    margin: 50px 0px 50px 25px;
+}
+
+    .threepic img {
+        display: block;
+ }
+
+.threepic a {
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        text-align: right;
+        margin: 260px -265px 20px 0px;
+        float: right;
+        border: 1px solid white;
+        border-radius: 60px;
+        background-color: white;
+        padding: 5px 20px;
+}
+
+/*carusela desgin*/
+
+#carousle_position {
+    background-color: white;
+    margin-top: 400px;
+    width: 800px;
+    margin-right: 65px;
+}
+
+.carousel-inner img {
+    width: 450px;
+    height: 320px;
+    margin-right: 130px;
+}
+
+#carouselExampleIndicators {
+    margin-top: 300px;
+    width: 700px;
+    height: 400px;
+    margin-right: 40px
+}
+#second {
+    margin: 50px 20px 0px 300px;
+}
+
+.warp {
+    float: right;
+    width: 200px;
+    margin: 0px 0px 0px 10px;
+}
+
+.sameline {
+    display: inline-block;
+    float: right;
+    margin: 30px 0px 50px 0px;
+}
+
+#myimg {
+    width: 200px;
+    height: 250px;
+    margin-right: 0px 0px 0px 0px;
+}
+
+#myp {
+    width: 400px;
+}
+
+h3 {
+    font-size: 15pt;
+    margin-bottom: 30px;
+}
+
+#nameofpic {
+    margin: 280px 400px 0px 0px;
+    position: absolute;
+    background-color: gainsboro;
+    width: 200px;
+    text-align: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+table, tr, th, td { 
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightgray;
+}
+
+ table th {
+        vertical-align: top;
+        width: 40px;
+        text-align: center;
+        background-color: grey;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+#lastOne {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+/* Popup container */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color:blue;
+    text-decoration:underline
+}
+
+.popup .popuptext {
+        visibility: hidden;
+        width: 160px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -80px;
+
+}
+        /* Popup arrow */
+
+.popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+ }
+
+ .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+}
+
